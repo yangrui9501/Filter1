@@ -12,7 +12,7 @@
 
 #include <Arduino.h>
 
-class FirstOrderFilters
+class FirstOrderIIR
 {
 public:
     // Initialize type of filter, cut-off frequency, and sample time

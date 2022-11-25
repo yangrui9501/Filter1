@@ -1,6 +1,6 @@
-#include "first_order_filters.h"
+#include "first_order_iir_filters.h"
 
-void FirstOrderFilters::init(FilterType Type, double Cutoff_Freq, double Sample_Time)
+void FirstOrderIIR::init(FilterType Type, double Cutoff_Freq, double Sample_Time)
 {
     u_out = 0.0;
     u_in = 0.0;
@@ -36,7 +36,7 @@ void FirstOrderFilters::init(FilterType Type, double Cutoff_Freq, double Sample_
     B2D = B2C * T - 2.0 * B1C;
 }
 
-void FirstOrderFilters::update(double *Input_Data, double *Filtered_Data)
+void FirstOrderIIR::update(double *Input_Data, double *Filtered_Data)
 {
     u_in = *Input_Data;
 

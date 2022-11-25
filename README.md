@@ -4,7 +4,7 @@
 
 ```cpp
 #include <Arduino.h>
-#include <first_order_filters.h>
+#include <first_order_iir_filters.h>
 
 double data = 0.0;
 double data_f = 0.0;
@@ -13,7 +13,7 @@ double t = 0.0;
 double Cutoff_Freq = 10.0;
 double T = 0.001;
 
-FirstOrderFilters LPF;
+FirstOrderIIR LPF;
 
 void setup()
 {
@@ -22,7 +22,7 @@ void setup()
     {
     }
 
-    LPF.init(FirstOrderFilters::TYPE_LPF, Cutoff_Freq, T);
+    LPF.init(FirstOrderIIR::TYPE_LPF, Cutoff_Freq, T);
 
     randomSeed(0);
 }
