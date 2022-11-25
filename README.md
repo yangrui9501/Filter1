@@ -1,4 +1,4 @@
-# First-Order Filters
+# First-Order IIR Filters
 
 ## Example
 
