@@ -1,4 +1,4 @@
-# First-Order IIR Filters
+# DSP Library: First-Order IIR Filters
 
 ## Example
 
