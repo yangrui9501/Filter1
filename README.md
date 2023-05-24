@@ -2,7 +2,7 @@
 
 ## Example: LPF
 
-This example demonstrates how to intantiate a low-pass filter object and filter out the noise signal.
+This example illustrates the process of creating a low-pass filter (LPF) object and effectively eliminating the noise signal through digital filtering.
 
 ```cpp
 // 2023-05-24
