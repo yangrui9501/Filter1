@@ -1,18 +1,26 @@
 /**
- * @file first_order_filter.h
+ * @file iir_filter1.h
  * @author your name (you@domain.com)
- * @brief
+ * @brief 
  * @version 0.1
- * @date 2022-06-05
- *
- * @copyright Copyright (c) 2022
- *
+ * @date 2022-06-05, 2023-05-24
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
 #pragma once
 
-#include <Arduino.h>
+#ifdef ENV_PC
 
-class FirstOrderIIR
+#ifndef PI
+#define PI 3.141592653589793
+#endif
+
+#else
+#include <Arduino.h>
+#endif 
+
+class IIRFilter1
 {
 public:
     // Initialize type of filter, cut-off frequency, and sample time
