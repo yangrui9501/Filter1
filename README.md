@@ -1,6 +1,6 @@
 # DSP Library: First-Order IIR Filters
 
-![image](https://github.com/yangrui9501/dsp_iir_filter1/assets/91120147/c6fd3f24-68c0-4170-8a84-1162d2cd1dc5)
+![image](https://github.com/yangrui9501/dsp_iir_filter1/assets/91120147/9267c2f2-bd7f-4df7-939c-109ad382334a)
 
 ## Example
 
