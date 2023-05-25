@@ -45,3 +45,9 @@ const double& IIRFilter1::update(const double& input_data)
 
     return u_out;
 }
+
+void IIRFilter1::reset()
+{
+    u_in_pre = 0.0;
+    u_out = 0.0;
+}

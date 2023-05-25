@@ -32,7 +32,7 @@ public:
 
     void init(FilterType filter_type, double _fc, double _T);
     const double& update(const double& input_data);
-
+    void reset();
 private:
     double u_in, u_in_pre, u_out;
     double A1D, A2D, B1D, B2D;
